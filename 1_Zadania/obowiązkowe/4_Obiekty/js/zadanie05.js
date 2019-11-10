@@ -31,3 +31,9 @@ var animals = [
     }
 
 ]
+
+for(let i = 1; i < animals.length; i++){
+    for(let item in animals){
+        console.log(animals[item]);
+    }
+}
